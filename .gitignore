@@ -1,0 +1,8 @@
+#ignore system files
+*.DS_Store
+
+#ignore compiled output
+*.out
+
+#ignore auto-save
+*~
