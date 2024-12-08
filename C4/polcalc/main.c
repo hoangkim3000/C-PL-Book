@@ -13,7 +13,7 @@ int main ()
   double op2;
   char s[MAXOP];
 
-  while ((type = getop(s)) != 'q') 
+  while ((type = getop(s)) != CTRL_KEY('q')) 
   {
     switch (type)
     {

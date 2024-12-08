@@ -33,12 +33,12 @@ double pop ()
 void rdstck()
 {
   int i = sp;
-  printf("%d ", i);
   if (sp>0)
   {
     while (i>0)
       printf("%g ", val[--i]);
   }
+  else
   {
     printf("stack.rdstck: Stack empty\n");
   }
